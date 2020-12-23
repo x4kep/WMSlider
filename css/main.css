@@ -1,3 +1,23 @@
 body {
-  background-color: beige;
+  background-color: #ffffff;
+}
+
+.slider{
+  width: 100%;
+  background-color: black;
+}
+
+.slider__row{
+  padding: 0;
+  width: 3000px;
+}
+
+.slider__item {
+  width: 210px;
+  height: 120px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
 }
