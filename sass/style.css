@@ -11,12 +11,11 @@ body {
 .slider {
   width: 100%;
   background-color: black;
-  overflow-x: hidden;
 }
 
 .slider__row {
   padding: 0;
-  width: 3000px;
+  white-space: nowrap;
 }
 
 .slider__row ul {
