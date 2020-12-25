@@ -17,11 +17,11 @@ body {
     padding: 0;
     width: 3000px;
   }
-  
+
   &__row ul {
     display: inline-block;
   }
-  
+
   &__item {
     width: 210px;
     height: 120px;
@@ -31,7 +31,7 @@ body {
     display: inline-block;
     position: relative;
   }
-  
+
   &__skin {
     position: absolute;
     width: 100%;
@@ -39,13 +39,13 @@ body {
     opacity: 0;
     background-color: black;
   }
-  
+
   &__item:hover .slider__skin {
     opacity: 0.5;
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
   }
-  
+
   &__link {
     display: inline-block;
     position: relative;
@@ -67,7 +67,7 @@ body {
     visibility: hidden;
     opacity: 0;
   }
-  
+
   &__link::after {
     font-family: "Font Awesome 5 Free";
     content: "\f144";
@@ -77,23 +77,23 @@ body {
     font-size: 14px;
     color: black;
   }
-  
+
   &__link:hover {
     background-color: #f9f9f9;
   }
-  
+
   &__item:hover .slider__link {
     visibility: visible;
     -webkit-transition: all 0.3 ease 0s;
     transition: all 0.3 ease 0s;
     position: relative;
     -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
+    animation-iteration-count: 1;
     -webkit-animation: bottom-to-top 0.3s;
-            animation: bottom-to-top 0.3s;
+    animation: bottom-to-top 0.3s;
     opacity: 1;
   }
-  
+
   @keyframes bottom-to-top {
     0% {
       top: 70%;
@@ -105,5 +105,65 @@ body {
     }
   }
 
+  @keyframes top-to-bottom {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+    100% {
+      top: 50%;
+      opacity: 1;
+    }
+  }
+
+  .slider__controls {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .slider__link--outline {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 12px 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid white;
+  }
+
+  .slider__link--outline::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f144";
+    position: relative;
+    left: 8px;
+    top: 1px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+
+  .slider__button--outline {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+    bottom: 4px;
+    border: 0;
+  }
+
+  .play {
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-image: url("../images/icons/play.svg");
+  }
+
+  .stop {
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-image: url("../images/icons/stop.svg");
+  }
 }
 /*# sourceMappingURL=style.css.map */

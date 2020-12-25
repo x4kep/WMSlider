@@ -47,7 +47,7 @@
         }
         ],
         animationSpeed: 1,
-        direction: SliderDirection.RightToLeft,
+        direction: SliderDirection.LeftToRight,
         itemActions: [{
           actionName: 'watchNow',
           animationType: ItemEnterAnimationType.TopToBottom,
