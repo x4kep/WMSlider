@@ -4,6 +4,7 @@
  *
  * @property {Array<SliderRowOptions>} rows
  * @property {String|Element} container Container id or Element
+ * @property {Function} afterSliderRedered 
  *
  * ====================================
  * @typedef {Object} SliderRowOptions

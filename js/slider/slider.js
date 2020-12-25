@@ -2,9 +2,6 @@ import { SliderDirection, ItemEnterAnimationType } from './constants.js';
 import { isString, getElementWidth } from './helpers.js';
 import './typedef.js';
 
-const SliderComponent = (function () {
-  "use strict";
-
   /**
    * @enum {String}
    */
@@ -31,8 +28,7 @@ const SliderComponent = (function () {
     sliderOptions.rows.forEach(row => {
       this.rows.push(new SliderRowComponent(row, this.uiElements.container));
     });
-
-    // RENDER PLAY AND STOP BUTTONS AND ATTACH EVENTS
+    sliderOptions.afterSliderRedered(this);
   }
 
   /**
@@ -212,17 +208,5 @@ const SliderComponent = (function () {
       itemContainer.append(actionButtonEl);
     });
   }
-
-  
-  /**
-   * Render slider actions
-   * @param {Element} container Container where we render slider actions
-   */
-  SliderComponent.prototype.renderSliderActions = function renderSliderActions() {
-
-  }
-
-  return SliderComponent;
-}());
 
 export { SliderComponent };
