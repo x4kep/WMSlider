@@ -4,8 +4,8 @@
  *
  * @property {Array<SliderRowOptions>} rows
  * @property {String|Element} container Container id or Element
- * @property {Function} afterSliderRedered 
- *
+ * @property {Function} afterSliderRedered Function that will be called when slider is rendered
+ * 
  * ====================================
  * @typedef {Object} SliderRowOptions
  *

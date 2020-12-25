@@ -2,6 +2,10 @@ function isString(value) {
   return typeof value === 'string';
 }
 
+function isFunction(value) {
+  return typeof value === 'function';
+}
+
 function getElementWidth(element) {
   let style = element.currentStyle || window.getComputedStyle(element),
     width = element.offsetWidth, // or use style.width
@@ -12,4 +16,4 @@ function getElementWidth(element) {
   return width + margin - padding + border;
 }
 
-export { isString, getElementWidth }
+export { isString, getElementWidth, isFunction }

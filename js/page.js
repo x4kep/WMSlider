@@ -105,7 +105,7 @@
           label: 'Watch now',
         }]
       }],
-      afterSliderRedered: afterSliderRedered
+      afterSliderRendered: afterSliderRendered
     });
   });
 
@@ -113,7 +113,7 @@
    * 
    * @param {SliderComponent} slider 
    */
-  function afterSliderRedered(slider) {
+  function afterSliderRendered(slider) {
 
     const sliderControlersContainer = document.createElement('DIV');
     sliderControlersContainer.className = 'slider__controls';
@@ -142,6 +142,6 @@
     sliderControlersContainer.append(buttonActionEl);
 
     slider.uiElements.container.append(sliderControlersContainer);
-    
+
   }
 }());

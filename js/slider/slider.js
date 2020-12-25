@@ -1,5 +1,5 @@
 import { SliderDirection, ItemEnterAnimationType } from './constants.js';
-import { isString, getElementWidth } from './helpers.js';
+import { isString, getElementWidth, isFunction } from './helpers.js';
 import './typedef.js';
 
   /**
@@ -28,7 +28,11 @@ import './typedef.js';
     sliderOptions.rows.forEach(row => {
       this.rows.push(new SliderRowComponent(row, this.uiElements.container));
     });
-    sliderOptions.afterSliderRedered(this);
+    
+    if(isFunction(sliderOptions.afterSliderRendered)) {
+      sliderOptions.afterSliderRendered(this);
+    }
+
   }
 
   /**
