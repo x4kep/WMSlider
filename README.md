@@ -27,6 +27,10 @@ html-u)
 * Nije dozvoljeno koristiti gotova slider rešenja (slick, jQuery slider...)
 * Struktura i organizacija koda takva da omoguci lakse prebacivanje na druge projekte
 
+## Example ( Design ) 
+* https://www.apple.com/apple-tv-plus/
+[![mdify](https://i.imgur.com/yOhn3T3.png)](#)
+
 ## :cloud: Installation
 
 ```sh
@@ -142,7 +146,3 @@ If you are using this library in one of your projects, add it in this list. :spa
 [patreon]: https://www.patreon.com/ionicabizau
 [amazon]: http://amzn.eu/hRo9sIZ
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-
-## Primer 
-* https://www.apple.com/apple-tv-plus/
-[![mdify](https://i.imgur.com/yOhn3T3.png)](#)
