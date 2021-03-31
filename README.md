@@ -21,35 +21,7 @@ npm start
 ## :clipboard: Example
 
 ```js
-const mdify = require("mdify");
-
-let md = mdify.stringify({
-    author: "Johnny B."
-  , date: new Date()
-  , tags: ["hello", "world"]
-}, `## Hello World!
-Hey **there**!`);
-
-console.log(md);
-// ---
-// author: Johnny B.
-// date: 2016-06-06T07:12:17.533Z
-// tags:
-//   - hello
-//   - world
-// ---
-// ## Hello World!
-// Hey **there**!
-
-
-console.log(mdify.parse(md));
-// { markdown: '\n## Hello World!\nHey **there**!',
-//   metadata:
-//    { author: 'Johnny B.',
-//      date: Mon Jun 06 2016 10:12:17 GMT+0300 (EEST),
-//      tags: [ 'hello', 'world' ] },
-//   rawMeta: '---\nauthor: Johnny B.\ndate: 2016-06-06T07:12:17.533Z\ntags:\n  - hello\n  - world',
-//   html: '<h2 id="helloworld">Hello World!</h2>\n\n<p>Hey <strong>there</strong>!</p>' }
+console.log('TBD');
 ```
 ## :question: Get Help
 
@@ -57,7 +29,6 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
 
 ## :memo: Documentation
 
