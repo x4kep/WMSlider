@@ -146,7 +146,6 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 ## :scroll: License
 
-[MIT][license] © [Ionică Bizău][website]
 [license]: /LICENSE
 [website]: https://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
