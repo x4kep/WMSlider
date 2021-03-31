@@ -274,3 +274,8 @@ html-u)
 * Custom animacija ( dozvoljeno je koristiti library po izboru )
 * Nije dozvoljeno koristiti gotova slider rešenja (slick, jQuery slider...)
 * Struktura i organizacija koda takva da omoguci lakse prebacivanje na druge projekte
+
+## Primer 
+* https://www.apple.com/apple-tv-plus/
+* ![alt text](http://url/to/img.png)
+* [Imgur](https://i.imgur.com/yOhn3T3.png)
