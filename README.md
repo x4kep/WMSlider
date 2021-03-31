@@ -134,6 +134,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `bloggify-markdown-adapter`
 
 ## :scroll: License
+TBD
 
 [license]: /LICENSE
 [website]: https://ionicabizau.net
