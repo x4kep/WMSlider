@@ -12,11 +12,11 @@
 ## :cloud: Installation
 
 ```sh
-# Using npm
+# Download code
 npm install --save trafficslider
 
-# Using yarn
-yarn add mdify
+# Run app
+npm start
 ```
 ## :clipboard: Example
 
