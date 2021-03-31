@@ -2,9 +2,7 @@
 [![mdify](http://i.imgur.com/koH6iq4.png)](#)
 # appleVideoSliderClone
 
- [![Support me on Patreon][badge_patreon]][patreon]
- [![Buy me a book][badge_amazon]][amazon] 
- [![PayPal][badge_paypal_donate]][paypal-donations] 
+
  [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) 
  [![Version](https://img.shields.io/npm/v/mdify.svg)](https://www.npmjs.com/package/mdify) 
  [![Downloads](https://img.shields.io/npm/dt/mdify.svg)](https://www.npmjs.com/package/mdify) 
