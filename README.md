@@ -27,7 +27,7 @@ html-u)
 * Nije dozvoljeno koristiti gotova slider rešenja (slick, jQuery slider...)
 * Struktura i organizacija koda takva da omoguci lakse prebacivanje na druge projekte
 
-## Example ( Design ) 
+## :pencil2: Example ( Design ) 
 * https://www.apple.com/apple-tv-plus/
 [![mdify](https://i.imgur.com/yOhn3T3.png)](#)
 
