@@ -13,7 +13,7 @@
 
 ```sh
 # Using npm
-npm install --save mdify
+npm install --save trafficslider
 
 # Using yarn
 yarn add mdify
