@@ -27,8 +27,9 @@ html-u)
 
 ## :pencil2: Example ( Design ) 
 * https://www.apple.com/apple-tv-plus/
+* Working example as gif: https://i.imgur.com/ic61TT5.gif
 [![mdify](https://i.imgur.com/yOhn3T3.png)](#)
-![Alt Text](https://i.imgur.com/ic61TT5.gif)
+
 
 ## :cloud: Installation
 
